@@ -680,10 +680,20 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "pwuHPlq874s",
   "title": "Haimu Heartbeat Silent Switch Test"
  },
+ "haimumidnight": {
+  "video": "vcxLB3vzudI",
+  "title": "Unboxing & Sound Test Haimu Middle Night (Midnight) Switch #unboxing #keyboardasmr #soundtest",
+  "creator": "Only Test"
+ },
  "haimupearllemon": {
   "video": "sNw8bpDYXhE",
   "title": "MONSGEEK M3 Haimu pearl lemon switch typing Sound",
   "creator": "JoWs"
+ },
+ "haimuseasalt": {
+  "video": "8I_yiisoizs",
+  "title": "몬스타기어 닌자87 하이무바다소금 타건 Monstargear NINJA87 Haimu Sea Salt Sound Test #keyboard #mechanicalkeyboard",
+  "creator": "jongizombie"
  },
  "haimuwhispersilent": {
   "video": "T0EFbtjtPmo",
@@ -709,6 +719,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "re6FG-IBsts",
   "title": "Maybe we need to pause for a sec | HMX Blossom linear switch sound test review",
   "creator": "The Switch Journal"
+ },
+ "hmxbuttersilent": {
+  "video": "1yVNStUtq5w",
+  "title": "HMX Butter Silent Tactile Switches | Sound Test",
+  "creator": "Divinikey"
  },
  "hmxcola": {
   "video": "7k_ex78Z9jY",
@@ -823,15 +838,40 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Kailh Calligraphy (Alu/PP/PC) sound test",
   "creator": "DadTech1981"
  },
+ "kailhcanary": {
+  "video": "lbRmkCCpXA0",
+  "title": "Kailh Canary Switch Stereo Sound Test, Stock Lubed Filmed Tapping Typing",
+  "creator": "issey83"
+ },
  "kailhclionelimacina": {
   "video": "dhIkzeO_lKI",
   "title": "Monokei Hiro (Brass Bottom) | PP Plate | Kailh Clione Limacina | Sound Test",
   "creator": "Jaded Johnny"
  },
+ "kailhcrystalroyalbox": {
+  "video": "mFdB7yHIwCE",
+  "title": "The Ultimate KAILH BOX CRYSTAL ROYAL Sound Test | Very Tactile switch!",
+  "creator": "Click and Thock"
+ },
+ "kailhdeepseasilentprobox": {
+  "video": "adfI77YpTPE",
+  "title": "Kailh BOX Deep Sea Silent Pro Whale Switch Sound Test!",
+  "creator": "Click and Thock"
+ },
  "kailhflcmmkicemint": {
   "video": "FTpRS-uDMhY",
   "title": "Full POM, no scratch! FLCMMK Ice Mint Linears Review!",
   "creator": "Maker Mods"
+ },
+ "kailhheavykailhheavyburntorange": {
+  "video": "ClQmsujTLe0",
+  "title": "The Ultimate KAILH BOX BURNT ORANGE Sound Test | Tactile BOX Heavy!",
+  "creator": "Click and Thock"
+ },
+ "kailhheavykailhheavypaleblue": {
+  "video": "pfAM8BdAJpI",
+  "title": "Kailh BOX Heavy Pale Blue - Mechanical Switch Sound Test",
+  "creator": "Skurtbert"
  },
  "kailhpolia": {
   "video": "UIA0HiGjBOU",
@@ -842,6 +882,21 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "dyAHRy7PY3M",
   "title": "Filmed Kailh Pro Burgundy Sound Test",
   "creator": "Amy Tran"
+ },
+ "kailhprokailhproburgundy": {
+  "video": "dyAHRy7PY3M",
+  "title": "Filmed Kailh Pro Burgundy Sound Test",
+  "creator": "Amy Tran"
+ },
+ "kailhprokailhprolightgreen": {
+  "video": "xy_YzGbIwfU",
+  "title": "The Ultimate KAILH PRO LIGHT GREEN Sound Test | Classic Click Jacket!",
+  "creator": "Click and Thock"
+ },
+ "kailhprokailhpropurple": {
+  "video": "O4I5EHhzCyY",
+  "title": "The Ultimate KAILH PRO PURPLE Sound Test | Subtle Tactility Switch!",
+  "creator": "Click and Thock"
  },
  "kailhpropurple": {
   "video": "O4I5EHhzCyY",
@@ -862,6 +917,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "sajeThEs5_8",
   "title": "Keychron Silent Red K Pro switch stock(Factory lubed) sound on DAREU A104 Pro",
   "creator": "GameCLEF"
+ },
+ "keychronultrafastlimemagneticlime": {
+  "video": "mAJG26VmSlI",
+  "title": "Sound Test | Ultra-fast Lime Magnetic – Keychron C75 TMR",
+  "creator": "Keychron Thailand Keyboard"
  },
  "keygeekcrepe": {
   "video": "Sq9SeAz6_Bo",
@@ -1054,6 +1114,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "iHaNi2g0CK0",
   "title": "iqunix F97 TTC ACE switches sound test",
   "creator": "GAGO"
+ },
+ "ttcgoldbrown": {
+  "video": "JaJbz8IRJNI",
+  "title": "Tofu60 with stock TTC Gold V2 Brown Typing Sounds",
+  "creator": "Switch Sounds"
  },
  "ttcgoldpink": {
   "video": "E0HcldRBqds",
