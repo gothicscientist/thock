@@ -389,6 +389,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Lubed Gateron Silent Ink Black V2 Typing Sound Test",
   "creator": "Jaeyou Park"
  },
+ "gateroninkv2gateroninksilentblack": {
+  "video": "Gglo3Jk5xHE",
+  "title": "Lubed Gateron Silent Ink Black V2 Typing Sound Test",
+  "creator": "Jaeyou Park"
+ },
  "gateroninkv2problack": {
   "video": "lF73kwneHLA",
   "title": "Switch Sound Test: Gateron Ink V2 Pro Black, Gateron EverFree Silent Yellow, Nuphy Rose Glacier"
@@ -402,6 +407,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "9fzcJ67SvTU",
   "title": "Gateron Ink Black V2 Sound Test | The Ultimate Cherry MX Black Killer?",
   "creator": "Click and Thock"
+ },
+ "gateronkangaroogateronkangaroo59g": {
+  "video": "1ROfPEZyM_U",
+  "title": "Gateron Baby Kangaroo 2.0 59g Sound Test",
+  "creator": "Mechanical Keyboards"
  },
  "gateronkhonsu": {
   "video": "td3nVDOmGdQ",
@@ -636,6 +646,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "b51X6_XQWEI",
   "title": "Gateron Strawberry Smoothie Linear Switch Sound Test"
  },
+ "gaterontealiov2": {
+  "video": "UmVVGqNwfAU",
+  "title": "JLabs Augur 60% | FR4 Plate | Gateron x Zeal Tealio V2 Sound Test",
+  "creator": "Jaded Johnny"
+ },
  "gateronyellow": {
   "video": "d9t-VKb8DUc",
   "title": "Gateron MILKY YELLOW Sound Test & Review // The best budget linear switches?",
@@ -788,6 +803,16 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Weikav Nut65 | Sound Test with HMX Waverider V2 Tactile Switches",
   "creator": "PantheonKeys"
  },
+ "huanoamericanrosegarden": {
+  "video": "Mr3gXDFvskw",
+  "title": "American Rose Garden Switch & 2 distinct plates | Keyboard Typing Sound | ASMR",
+  "creator": "くしゃみ / Morning-Sneeze"
+ },
+ "huanopink": {
+  "video": "ZcJozxzR4W0",
+  "title": "Mouse Deluxe M800 V2, Switches Huano Pink, Sound Test, LIKE #custobeneficio #custom #tecladogamer",
+  "creator": "LR GAMES"
+ },
  "huanoraw": {
   "video": "DkCvKYiImPQ",
   "title": "CIY GK68 + Huano Raw Switches Sound Test",
@@ -823,10 +848,25 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "The Ultimate KAILH BOX BROWN Sound Test | Smooth and subtle tactile switch!",
   "creator": "Click and Thock"
  },
+ "kailhboxcrystalroyal": {
+  "video": "mFdB7yHIwCE",
+  "title": "The Ultimate KAILH BOX CRYSTAL ROYAL Sound Test | Very Tactile switch!",
+  "creator": "Click and Thock"
+ },
  "kailhboxred": {
   "video": "k8Dx4Xmfc00",
   "title": "Kailh Box RED BEAN PUDDING // Sound Test & Review",
   "creator": "KeebNews"
+ },
+ "kailhboxsilentpinkkailhboxsilentbrown": {
+  "video": "BG4aG5-I4wM",
+  "title": "Tofu with stock Kailh BOX Silent Pink Kailh BOX Silent Brown Typing Sounds",
+  "creator": "Switch Sounds"
+ },
+ "kailhboxsilentpinkkailhboxsilentpink": {
+  "video": "6YruKmlgMgY",
+  "title": "Kailh BOX Silent Pink Ultimate Sound Test | Great Semi-Silent Switch!",
+  "creator": "Click and Thock"
  },
  "kailhboxwinter": {
   "video": "sshjsoT80QE",
@@ -873,6 +913,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Kailh BOX Heavy Pale Blue - Mechanical Switch Sound Test",
   "creator": "Skurtbert"
  },
+ "kailhjellyfishv2": {
+  "video": "FceMhuHifEw",
+  "title": "Kailh Jellyfish V2 Typing Sound",
+  "creator": "Wuzi"
+ },
  "kailhpolia": {
   "video": "UIA0HiGjBOU",
   "title": "Kailh Polia Switch Review and Sound Test",
@@ -902,6 +947,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "O4I5EHhzCyY",
   "title": "The Ultimate KAILH PRO PURPLE Sound Test | Subtle Tactility Switch!",
   "creator": "Click and Thock"
+ },
+ "kailhredbeanpudding": {
+  "video": "k8Dx4Xmfc00",
+  "title": "Kailh Box RED BEAN PUDDING // Sound Test & Review",
+  "creator": "KeebNews"
  },
  "kbdfansrollerv2": {
   "video": "GwtkoEmA5pg",
@@ -1079,6 +1129,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "A1EG4bHL6hI",
   "title": "Tecsee Ice Candy Sound Test",
   "creator": "New"
+ },
+ "tecseejadeite": {
+  "video": "3FXx83cDrac",
+  "title": "TECSEE Jadeite Linear Switch 63.5gr - Quick Sound Test (Stock - Factory Lubed)",
+  "creator": "2shycats"
  },
  "tecseemangoice": {
   "video": "5VKM4K2Sosw",
