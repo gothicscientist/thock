@@ -34,6 +34,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Cherry MX Hyperglide Brown Sound Test #mechanicalkeyboard #keyboard #keyboardasmr #keycaps",
   "creator": "Chai Key"
  },
+ "cherrymx": {
+  "video": "gBcvPbNBiJM",
+  "title": "Sound Test - All Cherry MX Switches!",
+  "creator": "Casual Takes"
+ },
  "cherrymx2ablack": {
   "video": "Q-YPHoxnyXY",
   "title": "Cherry MX2A Black sound test",
@@ -176,6 +181,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
  "durocklupine": {
   "video": "N6UYk32Bpuk",
   "title": "Durock Lupine Sound Test with GMK, MT3 and SA Keycaps",
+  "creator": "Click and Thock"
+ },
+ "durockmamba": {
+  "video": "undZGeJM2zI",
+  "title": "Durock Mamba Sound Test with GMK, MT3 and SA Keycaps | Amazing...!",
   "creator": "Click and Thock"
  },
  "durockmekaniskultramarinev2": {
@@ -603,6 +613,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Gateron Switches Sound Test: Red, Blue, Brown, Yellow, White, Black, Green",
   "creator": "Keychron"
  },
+ "gateronsilent": {
+  "video": "LaE2Z45nIvE",
+  "title": "Gateron KS-9 Silent 2.0 White Switches Sound Test",
+  "creator": "Laralarame"
+ },
  "gateronsilentblack": {
   "video": "Gglo3Jk5xHE",
   "title": "Lubed Gateron Silent Ink Black V2 Typing Sound Test",
@@ -843,6 +858,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Kailh BOX Black Switch Sound Test and Review | Too Heavy?",
   "creator": "Click and Thock"
  },
+ "kailhboxblueberryicecreampro": {
+  "video": "DVk1kvOTutA",
+  "title": "Kailh BOX Blueberry Ice Cream Pro Sound Test & Review - Smooooth",
+  "creator": "Click and Thock"
+ },
  "kailhboxbrown": {
   "video": "Vu8Tiy3q-vM",
   "title": "The Ultimate KAILH BOX BROWN Sound Test | Smooth and subtle tactile switch!",
@@ -868,6 +888,16 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Kailh BOX Silent Pink Ultimate Sound Test | Great Semi-Silent Switch!",
   "creator": "Click and Thock"
  },
+ "kailhboxstrawberryicecreampro": {
+  "video": "_tM7YrttOhQ",
+  "title": "Kailh BOX Strawberry Ice Cream Pro Sound Test & Review - Sooo Light!",
+  "creator": "Click and Thock"
+ },
+ "kailhboxtaroicecreampro": {
+  "video": "FBuKXsoUmgg",
+  "title": "Kailh BOX Taro Ice Cream Pro Sound Test & Review - Even better!",
+  "creator": "Click and Thock"
+ },
  "kailhboxwinter": {
   "video": "sshjsoT80QE",
   "title": "Ultimate Kailh BOX Winter Tactile Switch Sound Tests!",
@@ -882,6 +912,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "lbRmkCCpXA0",
   "title": "Kailh Canary Switch Stereo Sound Test, Stock Lubed Filmed Tapping Typing",
   "creator": "issey83"
+ },
+ "kailhchosfoxv2arcticfox": {
+  "video": "T1hmR9Z5D20",
+  "title": "switch.riiport - Sound Test: Chosfox x Kailh Arctic Fox V2",
+  "creator": "switch.riiport"
  },
  "kailhclionelimacina": {
   "video": "dhIkzeO_lKI",
@@ -1027,6 +1062,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "KFA x BSUN Pistachio Gelato Switch Sound Test",
   "creator": "KeebsForAll"
  },
+ "kprepublicciyredlotus": {
+  "video": "K52ybNiRvVI",
+  "title": "Little Denny Doo Dinkins 30%, CF plate, CIY Red Lotus + Cherry HG bottoms (typing sounds)",
+  "creator": "PeppyTouch"
+ },
  "kprepublicemotoyslittledaisylittledaisylinear": {
   "video": "S-Upa-L-lp0",
   "title": "Emotoys Little Daisy Linear Silent switch sound simple test",
@@ -1039,6 +1079,31 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
  "kprepublicjwickchazhuchazhu": {
   "video": "2HrQuiPrOS0",
   "title": "Revo x JWICK ChaZhu Light-tactile switch sample review",
+  "creator": "KP republic"
+ },
+ "kprepublickttkangwhitev3": {
+  "video": "ipk9viGP184",
+  "title": "KTT Kang White V3 Switch Sound Test | Great Budget Linear Switches",
+  "creator": "Click and Thock"
+ },
+ "kprepublickttwinered": {
+  "video": "qhkDkkT71zc",
+  "title": "KTT Wine Red Sound Test",
+  "creator": "NowKnown"
+ },
+ "kprepublicmarshmallow": {
+  "video": "6XsWQz4fNSs",
+  "title": "Typing test - KPRepublic BM40 - Boba Marshmallow Frankenswitch - Custom mechanical keyboard",
+  "creator": "Juan Miguel García"
+ },
+ "kprepublicnexttimebluestar": {
+  "video": "IqZxaVA7bu8",
+  "title": "Sound from NextTime Blue Star linear switch.",
+  "creator": "KP republic"
+ },
+ "kprepublictbcatsblueballonblue": {
+  "video": "tN6eJgH9tzM",
+  "title": "Tbcats blue ballon simple sound test",
   "creator": "KP republic"
  },
  "kttmint": {
