@@ -118,6 +118,16 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Melon Milk Linear Switches on Mr. Suit Sound Test",
   "creator": "Cozy Kaye"
  },
+ "domikeyastronaut": {
+  "video": "wJS2SHFVbE4",
+  "title": "Domikey Astronaut switch sound test #keyboard #banphimco #switchreview",
+  "creator": "Switches Review"
+ },
+ "domikeydeepsea": {
+  "video": "HyeIYkp2UcQ",
+  "title": "Domikey Deep Sea Switches Fading Keycap Set Monsgeek M2 Sound Test #keycaps #mechanicalkeyboards",
+  "creator": "MechTech Keyboards"
+ },
  "durockblacklotus": {
   "video": "ekW6TtH5a9I",
   "title": "Durock Black Lotus 63.5g Switch Sound Test",
@@ -290,6 +300,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "lF73kwneHLA",
   "title": "Switch Sound Test: Gateron Ink V2 Pro Black, Gateron EverFree Silent Yellow, Nuphy Rose Glacier"
  },
+ "gateron30cm": {
+  "video": "bvPPY_Ch4Us",
+  "title": "CM for \"Clack Master\"? | Gateron CM 3.0 Switch Review",
+  "creator": "JTECH"
+ },
  "gateronazuredragonv4": {
   "video": "qITsK1zidGk",
   "title": "Better Than Type R? Gateron Azure Dragon v4 Tactile Switches (Sound test)",
@@ -374,6 +389,16 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "qNandH-_9pc",
   "title": "Gateron Dual-rail Lunar Probe Linear Switch - Full Review Sound Test Compare with Gateron Oil King",
   "creator": "LumeKeebs"
+ },
+ "gateroneverfreecurry": {
+  "video": "OOZom-LPP2Q",
+  "title": "Gateron everfree curry sound test on aulaf75 #aulaf75 #mechanicalkeyboard #gateron",
+  "creator": "dedet wirawanda"
+ },
+ "gateroneverfreegrayish": {
+  "video": "pxgYPCeq9jk",
+  "title": "Yunzii AL66 | Gateron Everfree Grayish Switch | Review & Modding | Sound Test",
+  "creator": "AnitaTech"
  },
  "gaterongpro30black": {
   "video": "_y-E2nrV8Tk",
@@ -618,10 +643,30 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Gateron KS-9 Silent 2.0 White Switches Sound Test",
   "creator": "Laralarame"
  },
+ "gateronsilent20gateronsilent20white": {
+  "video": "LaE2Z45nIvE",
+  "title": "Gateron KS-9 Silent 2.0 White Switches Sound Test",
+  "creator": "Laralarame"
+ },
  "gateronsilentblack": {
   "video": "Gglo3Jk5xHE",
   "title": "Lubed Gateron Silent Ink Black V2 Typing Sound Test",
   "creator": "Jaeyou Park"
+ },
+ "gateronsilentgateronsilentblack": {
+  "video": "yGhkEYixeus",
+  "title": "Gateron Silent Black Ink switch review",
+  "creator": "KeebWorks"
+ },
+ "gateronsilentgateronsilentbrown": {
+  "video": "pmLYmE5csPo",
+  "title": "Sound test of my new customized keyboard (Gateron Silent Brown)",
+  "creator": "FreelimbO"
+ },
+ "gateronsilentgateronsilentred": {
+  "video": "Q6dZgQeekxU",
+  "title": "Gateron Silent Red Sound Test STOCK & Compared to Normal Switches (Scuffed) | Mechanical Keyboard",
+  "creator": "Kowaru"
  },
  "gateronsilentred": {
   "video": "Q6dZgQeekxU",
@@ -660,6 +705,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
  "gateronstrawberrysmoothie": {
   "video": "b51X6_XQWEI",
   "title": "Gateron Strawberry Smoothie Linear Switch Sound Test"
+ },
+ "gateronsummertimev2": {
+  "video": "hKE9cOb3ObY",
+  "title": "Gateron Summertime V2 switch sound test #keyboard #banphimco",
+  "creator": "Switches Review"
  },
  "gaterontealiov2": {
   "video": "UmVVGqNwfAU",
@@ -853,6 +903,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Jelly Epoch with JWK Seal sound test",
   "creator": "Keebaholics"
  },
+ "kailhboxautumn": {
+  "video": "EGmdDaGKKbs",
+  "title": "Kailh BOX Autumn Sound Test & Review! All PC Clicky switch!",
+  "creator": "Click and Thock"
+ },
  "kailhboxblack": {
   "video": "e3ANj8tzPFQ",
   "title": "Kailh BOX Black Switch Sound Test and Review | Too Heavy?",
@@ -871,6 +926,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
  "kailhboxcrystalroyal": {
   "video": "mFdB7yHIwCE",
   "title": "The Ultimate KAILH BOX CRYSTAL ROYAL Sound Test | Very Tactile switch!",
+  "creator": "Click and Thock"
+ },
+ "kailhboxmidnightjade": {
+  "video": "g37Hx__G8QE",
+  "title": "Kailh BOX Midnight Jade Sound Test with GMK, MT3 and SA keycaps",
   "creator": "Click and Thock"
  },
  "kailhboxred": {
@@ -1067,6 +1127,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Little Denny Doo Dinkins 30%, CF plate, CIY Red Lotus + Cherry HG bottoms (typing sounds)",
   "creator": "PeppyTouch"
  },
+ "kprepublicduhukqk01": {
+  "video": "fMZUfZGPlJU",
+  "title": "Akko 3098B (Duhuk QK01 switches, KPRepublic Dark Blue Gradient PBT Keycaps) Sound Test",
+  "creator": "TheAdept"
+ },
  "kprepublicemotoyslittledaisylittledaisylinear": {
   "video": "S-Upa-L-lp0",
   "title": "Emotoys Little Daisy Linear Silent switch sound simple test",
@@ -1146,6 +1211,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Good Weird or Bad Weird? - Momoka Shark Tactile Review",
   "creator": "nearLucid"
  },
+ "novelkeysxkailhcream": {
+  "video": "7ZLyLNKtMrc",
+  "title": "Novelkeys x Kailh Cream Sound Test with GMK, MT3 and SA Keycaps",
+  "creator": "Click and Thock"
+ },
  "owlablatte": {
   "video": "xQXWrGfZp8E",
   "title": "Neo65 Sound Test | Aluminum Plate | Owlab Latte | GMK",
@@ -1199,6 +1269,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "3FXx83cDrac",
   "title": "TECSEE Jadeite Linear Switch 63.5gr - Quick Sound Test (Stock - Factory Lubed)",
   "creator": "2shycats"
+ },
+ "tecseeloong": {
+  "video": "QXR-LffznLw",
+  "title": "Tecsee Loong | Long Spring Linear Switch Sound Test | AL65 Aliminum Board",
+  "creator": "StillThatGuyJake"
  },
  "tecseemangoice": {
   "video": "5VKM4K2Sosw",
