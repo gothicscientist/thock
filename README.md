@@ -1,59 +1,136 @@
 # Thock
 
-**A PC-parts-picker but for custom mechanical keyboards, built on real, daily-updated store data.**
+**Find compatible mechanical keyboard parts across stores, then build, tune and share your board.**
 
-**Live: [thock.cc](https://thock.cc)**
+[Try Thock](https://thock.cc) · [Quick start](#quick-start) · [Architecture](#architecture) · [Engineering notes](docs/architecture.md)
 
-Custom keyboards are a maze: cases, PCBs, plates, switches, stabilizers and keycaps all come from different stores, and not every part fits every other. Thock walks you through a short quiz (size, feel, sound, look, budget), then assembles complete builds from parts that are actually for sale, with real prices and links.
+![Thock Finder, captured from the locally staged application](docs/media/finder.webp)
 
-## What it does
+Custom keyboards spread cases, PCBs, plates, switches and keycaps across different retailers. Thock turns preferences into ranked builds and lets you change individual parts while checking compatibility. The app runs entirely in the browser; its catalog is assembled ahead of time from public store feeds and reviewed supplemental listings.
 
-- **Finder.** Eight questions turn into ranked, personalized builds. A scoring engine rates every switch and keycap set in the catalog against your answers, so two people with different tastes get different boards.
-- **Builder.** Pick parts yourself. Switch families (MX, magnetic, low-profile, optical) and PCB/plate pairings are checked.
-- **Swap and mod.** Swap any part in a result and watch the score update, with undo. Up to three suggested mods (foam, films, lube) are added within your remaining budget.
-- **Share and save.** Builds save in the browser and copy as a short link (`thock.cc/?b=…`) that restores the exact build.
-- **Directory.** Browse every listing, sold out or not, with its source store.
+## Explore a build
 
-## The data
-
-Everything comes from public store product feeds.
-
-| | |
+| Find your starting point | Make it yours |
 | --- | --- |
-| Retailer listings | **8,905** from **16** stores (CannonKeys, Divinikey, NovelKeys, KBDfans, Keychron, Epomaker and more) |
-| Parts usable in builds | **7,524** (2,000 switches, 1,803 keycap sets, 1,522 cases, 538 plates, 234 PCBs, 130 stabilizer sets, 1,297 mods and extras) |
-| Daily refresh | 09:17 UTC via Scraper |
+| **Finder:** answer questions about layout, feel, sound, appearance, use, connectivity, soldering and budget. Recommendations change with your answers. | **Builder:** pick parts directly, inspect compatibility warnings, change colors and preview the assembled layout. |
+| **Swap and tune:** try replacement parts, undo a swap and review suggested mods within the remaining budget. | **Save and share:** keep builds in browser storage or send a versioned URL that encodes the selected parts and Finder answers. |
+| **Directory:** search and filter listings, including sold-out products, with links to their source stores. | **Sound references:** listen to quiz examples and open creator sound-test videos or searches for switches. |
 
-### The scraper
+1. Open the Finder and choose a size, feel and sound. Some layout choices reveal additional questions.
+2. Finish the quiz and open the matches. Inspect the parts and prices, then try a swap.
+3. Open Builder to edit a board directly. Save it locally or copy a share link.
 
-`scripts/sync-catalog.mjs` reads each store's public Shopify `/products.json` feed, after checking `robots.txt`. It retries temporary network failures, paginates fully, verifies USD pricing, and parses titles and variants into typed parts (pack sizes, switch types, layouts, stock, exact variant URLs). Required-source failures, empty feeds, incomplete pagination, or a catalog shrink above 20% abort the run, so a bad crawl never reaches the site.
+![Thock Builder, captured from the locally staged application](docs/media/builder.webp)
 
-### Photo checks
+Screenshots show the committed catalog at capture time, not guaranteed current stock. [Reproduce the captures](docs/media/README.md).
 
-Product photos are screened with [sharp](https://sharp.pixelplumbing.com/) in `scripts/image-check.mjs`: clean background, product not cut off, keyboards shot top-down. Passing photos are cropped to their frame; anything else falls back to a drawn icon. A test blocks unchecked images from shipping.
+## Architecture
 
-## Engineering
-
-- **Loading.** The parts catalog is about 6 MB, so the finder does not wait for it. The deploy (`scripts/stage-site.mjs`) runs the page's own recommendation code on the whole catalog and inlines what the unanswered finder draws (the boards, their keycaps and prices, the build count; `scripts/boot-data.mjs`), so the quiz and the floating field paint from a page of about 100 kB. The catalog itself is four JSON files (`data/catalog-*.json`, written by `scripts/catalog-pack.mjs`), preloaded at low priority and parsed after first paint; every view that needs it (answers, results, builder, saved builds, share links, swaps) waits for it. The directory index is fetched only when the directory is opened. Assets carry content hashes (`?v=`) so a warm cache never mixes versions.
-- **Pipeline.** A scheduled Action syncs the catalog, validates it, runs the tests, and commits the data. A successful refresh triggers the Pages deploy. A failed one leaves the live site on the last good build.
-- **Tests.** Unit tests (Node's built-in runner) cover catalog admission, compatibility, recommendations, part swapping, share-code round trips, product links, and sound lookups. A Playwright suite checks the real UI: keyboard navigation, history, laptop and phone sizes, reduced motion, and broken images. Both gate every deploy.
-
-### Credits and sources
-
-Quiz sound clips are CC0 recordings from Freesound, credited in `assets/sounds/CREDITS.md`. Switch sound tests link out to creators' YouTube videos (never embedded or downloaded); sources are listed in `docs/sound-sources.md`. Product names, prices and photos belong to their stores. Purchase links support optional affiliate codes (`assets/affiliates.js`), disclosed on the site once enabled.
-
-## Run it locally
-
-Requires Node 22+.
-
-```sh
-npm ci
-npm test                          # unit tests
-npx playwright install chromium
-npm run test:ui                   # browser tests
-npm run test:boot                 # first paint and views before the catalog has loaded
-npm run catalog:sync              # re-crawl the stores (--offline uses cached feeds)
-npm run site:stage                # build dist/
+```mermaid
+flowchart TD
+    subgraph Pipeline["Offline catalog and build pipeline"]
+        Feeds["Public feeds and reviewed snapshots"] --> Sync["Normalize, admit and check photos"]
+        Sync --> Data[("Committed catalog packs and directory shards")]
+        Data --> Stage["Validate, generate boot state and stage HTML"]
+    end
+    subgraph Browser["Static browser application"]
+        Stage --> Finder["Finder and Builder"]
+        Data --> Finder
+        Data --> Directory["Directory loaded on demand"]
+        Finder --> Share["Versioned URLs and local saves"]
+    end
 ```
 
-Serve the repo or `dist/` over HTTP (not `file://`); the directory fetches its shards on demand. Design decisions are in [DESIGN.md](DESIGN.md).
+1. [sync-catalog.mjs](scripts/sync-catalog.mjs) ingests retailer feeds; [catalog-lib.mjs](scripts/catalog-lib.mjs) normalizes variants, pack sizes and builder admission.
+2. [catalog-pack.mjs](scripts/catalog-pack.mjs) writes builder packs; the directory gets a separate index and product-detail shards.
+3. [boot-data.mjs](scripts/boot-data.mjs) runs the page's recommendation code to prepare the initial board field; [stage-site.mjs](scripts/stage-site.mjs) produces static view entry points and content-hashed asset references.
+4. [index.html](index.html) paints the initial Finder, then loads the complete catalog for ranking and editing. [directory.js](assets/directory.js) loads its index when opened.
+5. [share-code.js](assets/share-code.js) encodes builds into URLs. Saved builds stay in browser storage; there is no account backend.
+
+## Engineering worth inspecting
+
+| Problem | Approach and rationale | Tradeoff |
+| --- | --- | --- |
+| A large parts catalog can delay the first useful screen | Generate and verify a small boot snapshot using the **same ranking code** as the browser. Full catalog loading follows first paint. | Build extraction depends on source markers; later interactions still need the complete catalog. |
+| An incomplete crawl can silently remove usable parts | Reject required-source failures, incomplete pagination, empty feeds and catalog shrink greater than 20%. Validate and test before committing refreshed data. | Legitimate large catalog changes need review; optional sources and reviewed snapshots can be stale. |
+| Share builds on static hosting without server storage | Encode stable part IDs and versioned quiz answers directly into the URL. | Store-code order and question versions become compatibility contracts; removed parts remain unavailable. |
+
+[Read the module-level walkthrough, constraints and test evidence](docs/architecture.md).
+
+## Stack and data
+
+| Responsibility | Implementation |
+| --- | --- |
+| Browser UI and state | HTML, CSS and plain JavaScript; SVG board illustrations; browser storage |
+| Catalog ingestion and staging | Node.js 22+, public Shopify feeds, reviewed supplemental snapshots, JSON packs and shards |
+| Product-image checks | sharp, checked crops and illustration fallbacks |
+| Verification | Node built-in test runner and Playwright Chromium |
+| Hosting and automation | GitHub Pages and GitHub Actions |
+
+The [catalog manifest](data/catalog-manifest.json) records generation time, source status, listing counts, sold-out builder parts and admission exclusions. Those values change with refreshes; a listing count is not a count of in-stock compatible builds. The refresh workflow is scheduled for **09:17 UTC daily**, subject to source availability and validation gates.
+
+## Quick start
+
+Requires **Node.js 22 or newer** and npm. No API keys, database or catalog recrawl are needed to try the checked-in snapshot.
+
+```sh
+git clone https://github.com/gothicscientist/thock.git
+cd thock
+npm ci
+npm run site:stage
+npm run preview
+```
+
+Open [http://127.0.0.1:4173](http://127.0.0.1:4173). The preview serves `dist/`, including `/build`, `/directory`, `/saved` and `/about`. Serve over HTTP: opening HTML directly from disk does not support catalog fetching. Stop with Ctrl+C. Re-run staging after source changes.
+
+## Verification and maintenance
+
+```sh
+npm test
+npm run catalog:check
+npm run docs:check
+npx playwright install chromium
+npm run test:ui
+npm run test:boot
+```
+
+Unit tests cover admission, recommendations, combinations, swaps, share-code round trips, links, images and search metadata. Browser checks exercise keyboard controls, focus, navigation, responsive layouts, image failures and views opened before catalog loading finishes. External images in behavioral tests use fixtures; these tests do not verify live retailer availability.
+
+To refresh retailer data explicitly:
+
+```sh
+npm run catalog:sync
+```
+
+This contacts stores and rewrites generated catalog files. Offline refresh (`npm run catalog:sync -- --offline`) requires `.cache/` feed snapshots from a previous crawl; those snapshots are not included in a fresh clone. Normal local development uses the committed data.
+
+### Configuration
+
+[.env.example](.env.example) documents optional process variables for YouTube discovery, an existing Chromium binary and a custom staging directory. Scripts do **not** automatically load `.env` files. Default staging rebuilds `dist/`; a custom output directory is deleted before staging, so it must be disposable. See the [catalog workflow](.github/workflows/catalog.yml) for optional API-secret wiring.
+
+## Repository map
+
+| Path | Start here for |
+| --- | --- |
+| [index.html](index.html) | Quiz, ranking engine, compatibility, swaps and builder UI |
+| [assets/](assets/) | Directory, sharing, names, themes, sounds and browser helpers |
+| [scripts/](scripts/) | Ingestion, normalization, image checks, staging and preview |
+| [data/](data/) | Committed catalog, manifest, product links and directory shards |
+| [tests/](tests/) | Unit and browser verification |
+| [.github/workflows/](.github/workflows/) | Refresh, sound generation and Pages deployment gates |
+| [DESIGN.md](DESIGN.md) | Visual rules and interaction decisions |
+| [docs/](docs/) | Architecture, product-link and sound-source documentation |
+
+## Status and limits
+
+Thock is a static application with automated refresh and deployment workflows. Compatibility checks depend on retailer metadata and inferred specifications; confirm exact PCB, plate, layout and kit contents before buying. Prices exclude shipping and taxes and can change after capture. Sound examples are references, not predictions of an assembled board.
+
+Local saves belong to one browser and do not sync across devices. There is no checkout or stock reservation. Optional sources and manually reviewed 40% listings have different freshness guarantees from required feed sources.
+
+Useful next work: broaden explicit fit metadata, make source freshness easier to inspect, and add reproducible end-to-end demo recordings. These are proposed improvements, not shipped capabilities.
+
+## Credits and usage rights
+
+Product names, photos and prices belong to their retailers. Quiz and interface audio credits are in [assets/sounds/CREDITS.md](assets/sounds/CREDITS.md); quiz-image credits are in [assets/quiz/CREDITS.md](assets/quiz/CREDITS.md). [Sound-test sources](docs/sound-sources.md) link to creators rather than redistributing their videos. [Affiliate configuration](assets/affiliates.js) supports optional codes and an on-site disclosure when enabled.
+
+**No project-wide software license is currently included.** Public source availability does not grant a general reuse license. Third-party asset terms remain separate; the owner must choose software licensing terms before this is described as open source.

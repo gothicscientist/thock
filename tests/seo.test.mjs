@@ -7,7 +7,7 @@ import {fileURLToPath} from 'node:url';
 // Stages the site once and checks what search engines, AI crawlers and link previews read from it.
 const root=fileURLToPath(new URL('../',import.meta.url));
 execFileSync(process.execPath,['scripts/stage-site.mjs'],{cwd:root,stdio:'ignore'});
-const read=f=>readFile(root+'dist/'+f,'utf8');
+const read=async f=>(await readFile(root+'dist/'+f,'utf8')).replace(/\r\n/g,'\n');
 const tag=(h,re)=>(h.match(re)||[])[1];
 
 test('every view has its own title, description, canonical and preview tags', async()=>{

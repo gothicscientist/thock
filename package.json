@@ -10,7 +10,9 @@
     "catalog:links:check": "node scripts/validate-product-links.mjs",
     "test": "node --test tests/*.test.*",
     "test:ui": "node tests/ui.browser.mjs",
-    "test:boot": "node tests/boot.browser.mjs"
+    "test:boot": "node tests/boot.browser.mjs",
+    "preview": "node scripts/preview.mjs",
+    "docs:check": "node scripts/check-docs.mjs"
   },
   "engines": {
     "node": ">=22"
