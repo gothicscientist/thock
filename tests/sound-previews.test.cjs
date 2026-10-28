@@ -3,7 +3,7 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const { test } = require('node:test');
 
-const html = fs.readFileSync(require('node:path').join(__dirname, '../index.html'), 'utf8');
+const html = fs.readFileSync(require('node:path').join(__dirname, '../index.html'), 'utf8').replace(/\r\n/g, '\n');
 const script = html.match(/<script>([\s\S]*?)<\/script>/)[1];
 const sameKeyCode = script.match(/const sameKey=[^\n]+/)[0] + '\n' + script.match(/const SPK=[^\n]+/)[0];
 const soundCode = script.slice(script.indexOf('const SOUND_TESTS='), script.indexOf('/* =========================================================\n   WHERE TO BUY:'));
