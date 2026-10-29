@@ -73,6 +73,16 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Cherry MX Black Hyperglide Sound Test with GMK, MT3 and SA Keycaps",
   "creator": "Click and Thock"
  },
+ "cherrymxnorthernlight": {
+  "video": "9Q7neCBwiyA",
+  "title": "Cherry MX Northern Light switch sound test",
+  "creator": "Switches Review"
+ },
+ "cherrypetal": {
+  "video": "x0kng24a1jE",
+  "title": "The anti-Falcon | Cherry MX Petal tactile switch sound test and review",
+  "creator": "The Switch Journal"
+ },
  "dangkeebsblueberrymilk": {
   "video": "J3lfzmVnvvw",
   "title": "Neo65 + CF Plate + DK Blueberry Milk #soundtest #typingtest #asmr #keyboards #typing #dangkeebs",
@@ -471,6 +481,16 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Gateron Magnetic Jade Pro Switch Sound Test | Ultra Smooth & Quiet",
   "creator": "Click and Thock"
  },
+ "gateronmagneticjadegaming": {
+  "video": "t2AKW1ROnew",
+  "title": "GATERON | Magnetic Jade Gaming Switches | Sound Test",
+  "creator": "Wasabi"
+ },
+ "gateronmagneticjademax": {
+  "video": "qH7YPqISOkE",
+  "title": "Gateron’s Magnetic Jade Max Switches (Sound  + Wobble Test) #keyboard #halleffect #wooting80HE",
+  "creator": "Kakkoii Gato"
+ },
  "gateronmagneticjadepro": {
   "video": "vuV3WWUQC-U",
   "title": "Gateron Magnetic Jade Pro Switch Sound Test | Ultra Smooth & Quiet",
@@ -741,6 +761,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Geon Raw 60g Sound Test with Wooting80 HE",
   "creator": "Skehla"
  },
+ "geonstrikehe": {
+  "video": "JLRQYqyioMk",
+  "title": "Geon Strike Clicky HE sound test",
+  "creator": "DadTech1981"
+ },
  "geonyellow": {
   "video": "wd0tJs_ItME",
   "title": "Geon HG Yellow Silent Tactile Review & Soundtest",
@@ -808,6 +833,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
  "hmxcola": {
   "video": "7k_ex78Z9jY",
   "title": "Here's a refill just for you | HMX Cola 3.5mm linear switch sound test review",
+  "creator": "The Switch Journal"
+ },
+ "hmxfirecracker": {
+  "video": "-cGJrwtOyaM",
+  "title": "HMX's BEST tactile to date | HMX Firecracker switch sound test and review",
   "creator": "The Switch Journal"
  },
  "hmxretroc": {
@@ -1117,6 +1147,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Finally, a genuine upgrade | Keygeek Y2X linear switch sound test review",
   "creator": "The Switch Journal"
  },
+ "keygeeky3x": {
+  "video": "TasIqRkOx04",
+  "title": "The X did not make it 10 times cooler | Keygeek Y3X linear switch sound test and review",
+  "creator": "The Switch Journal"
+ },
  "kfabsunpistachiogelato": {
   "video": "xMMrdA0q5xs",
   "title": "KFA x BSUN Pistachio Gelato Switch Sound Test",
@@ -1165,6 +1200,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "IqZxaVA7bu8",
   "title": "Sound from NextTime Blue Star linear switch.",
   "creator": "KP republic"
+ },
+ "kprepublicphynikeysfirstencounter": {
+  "video": "qotwxtXcVQg",
+  "title": "Alchemist Keyboards Petrichor (HMX x Phynikeys First Encounter, kfaPBT White on Navy) Sound Test",
+  "creator": "TheAdept"
  },
  "kprepublictbcatsblueballonblue": {
   "video": "tN6eJgH9tzM",
