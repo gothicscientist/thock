@@ -481,6 +481,16 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Gateron Magnetic Jade Pro Switch Sound Test | Ultra Smooth & Quiet",
   "creator": "Click and Thock"
  },
+ "gateronmagneticjadeattraction": {
+  "video": "NuZ6QMexiGs",
+  "title": "Gateron Magnetic Jade Attraction Sound Test",
+  "creator": "papacharlie games "
+ },
+ "gateronmagneticjadeemerald": {
+  "video": "WRpNzpgnLnY",
+  "title": "GATERON Magnetic Jade Emerald sound test",
+  "creator": "GATERON Official"
+ },
  "gateronmagneticjadegaming": {
   "video": "t2AKW1ROnew",
   "title": "GATERON | Magnetic Jade Gaming Switches | Sound Test",
@@ -582,6 +592,16 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
  "gateronoilkingpurpletactilesilent": {
   "video": "PKoHAYf9iEw",
   "title": "Gateron Oil King Purple Silent Tactile switches Sound Test",
+  "creator": "Click and Thock"
+ },
+ "gateronoilkingsilentgateronoilkingpink": {
+  "video": "M3pU3N8tQNI",
+  "title": "Gateron Oil King Pink Sound Test | Silent Linear Done Right?",
+  "creator": "Click and Thock"
+ },
+ "gateronoilkingsilentgateronoilkingpurple": {
+  "video": "Az_4g0e3kOs",
+  "title": "Gateron Oil King Purple Review — The Ultimate Silent Tactile Switch?",
   "creator": "Click and Thock"
  },
  "gateronoilkingv2": {
@@ -708,6 +728,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Gateron Smoothie Sound Test"
  },
  "gateronsmoothiepinksilent": {
+  "video": "xef2cFX3cK4",
+  "title": "Gateron Smoothie Pink Silent Review | One of the Quietest Switches!",
+  "creator": "Click and Thock"
+ },
+ "gateronsmoothiesilentpink": {
   "video": "xef2cFX3cK4",
   "title": "Gateron Smoothie Pink Silent Review | One of the Quietest Switches!",
   "creator": "Click and Thock"
@@ -957,6 +982,16 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "mFdB7yHIwCE",
   "title": "The Ultimate KAILH BOX CRYSTAL ROYAL Sound Test | Very Tactile switch!",
   "creator": "Click and Thock"
+ },
+ "kailhboxheavyboxburntorange": {
+  "video": "ClQmsujTLe0",
+  "title": "The Ultimate KAILH BOX BURNT ORANGE Sound Test | Tactile BOX Heavy!",
+  "creator": "Click and Thock"
+ },
+ "kailhboxheavyboxpaleblue": {
+  "video": "pfAM8BdAJpI",
+  "title": "Kailh BOX Heavy Pale Blue - Mechanical Switch Sound Test",
+  "creator": "Skurtbert"
  },
  "kailhboxmidnightjade": {
   "video": "g37Hx__G8QE",
@@ -1364,6 +1399,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "3HMs0iEjgvI",
   "title": "Do you like TTC Magneto Sound Test?😜",
   "creator": "TTC"
+ },
+ "ttcprokomhemagnetic": {
+  "video": "YEIX6ckayrM",
+  "title": "TTC Pro KOM HE Magneto Sound Test | Premium Magnetic Switch",
+  "creator": "Click and Thock"
  },
  "wektnafusilent": {
   "video": "Gl4exN4dBQ4",
