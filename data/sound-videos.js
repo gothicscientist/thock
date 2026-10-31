@@ -1133,6 +1133,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Sound Test | Ultra-fast Lime Magnetic – Keychron C75 TMR",
   "creator": "Keychron Thailand Keyboard"
  },
+ "keygeekbluecheesev2": {
+  "video": "Q6TwTDLBaVs",
+  "title": "Blue Cheese V2 Sounds on Different Keyboards",
+  "creator": "KeyBayTech"
+ },
  "keygeekcrepe": {
   "video": "Sq9SeAz6_Bo",
   "title": "Keygeek’s best bright switch yet? Keygeek Crepe sound test on the Neo65CU #mechanicalkeyboard",
