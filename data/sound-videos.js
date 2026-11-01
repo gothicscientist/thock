@@ -540,6 +540,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Gateron Milky Brown sound Test",
   "creator": "編集担当"
  },
+ "gateronmilkybrown55g": {
+  "video": "HnLZUAkFSaw",
+  "title": "Gateron Cap V2 Milky Brown 55g Sound Test",
+  "creator": "Mechanical Keyboards"
+ },
  "gateronmilkyprogateronks3yellow": {
   "video": "4Ib9PVhSt_s",
   "title": "Gateron KS-3 Milky Yellow Pro Switch Sound Test",
