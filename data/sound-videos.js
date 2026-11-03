@@ -1448,6 +1448,16 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Wow, they're really good at making linears huh? | WS BigLucky Clicky switch sound test review",
   "creator": "The Switch Journal"
  },
+ "wsdashhemagnetic": {
+  "video": "pIA1MFoePys",
+  "title": "Wooting 60HE+ and WS Dash HE Magnetic Switches Sound Test",
+  "creator": "LumeKeebs"
+ },
+ "wspom": {
+  "video": "VVZPK4GmJBM",
+  "title": "Wuque Studio Zoom 65 V3 Sound Test | WS POM+ Switches",
+  "creator": "dutchmasterw"
+ },
  "wuquestudiored": {
   "video": "BiiyXlBdEpw",
   "title": "Wuque Studio WS Red - Sound test - Monsgeek M1",

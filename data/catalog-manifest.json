@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T19:32:39.383Z",
+  "generatedAt": "2026-11-03T17:06:39.007Z",
   "listingCount": 9582,
-  "inStockCount": 4884,
+  "inStockCount": 4882,
   "builderSwitchCount": 2083,
   "builderExtraCount": 1401,
   "builderCaseCount": 1779,
@@ -10,12 +10,12 @@
   "builderStabCount": 135,
   "builderPcbCount": 255,
   "builderPlateCount": 571,
-  "builderSoldOutCount": 4198,
+  "builderSoldOutCount": 4203,
   "builderAdmission": {
     "keyboards": {
       "total": 2657,
-      "admitted": 760,
-      "soldOutAdmitted": 1109,
+      "admitted": 759,
+      "soldOutAdmitted": 1110,
       "excluded": {
         "layout the builder can't draw": 150,
         "no layout": 363,
@@ -28,8 +28,8 @@
     },
     "keycaps": {
       "total": 2932,
-      "admitted": 693,
-      "soldOutAdmitted": 1234,
+      "admitted": 691,
+      "soldOutAdmitted": 1236,
       "excluded": {
         "not a full set": 968,
         "non-ANSI layout": 37
@@ -46,8 +46,8 @@
     },
     "switches": {
       "total": 1396,
-      "admitted": 723,
-      "soldOutAdmitted": 507,
+      "admitted": 722,
+      "soldOutAdmitted": 508,
       "excluded": {
         "no pack size": 56,
         "unsupported switch system (Topre/EC/Alps)": 3,
@@ -68,8 +68,8 @@
     },
     "pcb": {
       "total": 499,
-      "admitted": 286,
-      "soldOutAdmitted": 192,
+      "admitted": 287,
+      "soldOutAdmitted": 191,
       "excluded": {
         "layout the builder can't draw": 13,
         "no switch type": 3,
@@ -79,8 +79,8 @@
     },
     "plate": {
       "total": 452,
-      "admitted": 273,
-      "soldOutAdmitted": 160,
+      "admitted": 272,
+      "soldOutAdmitted": 161,
       "excluded": {
         "layout the builder can't draw": 5,
         "no switch type": 11,
@@ -89,8 +89,8 @@
     },
     "extras": {
       "total": 973,
-      "admitted": 500,
-      "soldOutAdmitted": 406,
+      "admitted": 499,
+      "soldOutAdmitted": 407,
       "excluded": {
         "unsupported switch system (Topre/EC/Alps)": 1,
         "not a keyboard part": 20,
@@ -155,7 +155,7 @@
       "url": "https://cannonkeys.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:31:58.340Z",
+      "checkedAt": "2026-11-03T17:05:58.400Z",
       "rawProducts": 1184,
       "listings": 917
     },
@@ -165,7 +165,7 @@
       "url": "https://divinikey.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:01.186Z",
+      "checkedAt": "2026-11-03T17:06:01.040Z",
       "rawProducts": 1489,
       "listings": 1360
     },
@@ -175,7 +175,7 @@
       "url": "https://novelkeys.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:31:38.014Z",
+      "checkedAt": "2026-11-03T17:05:55.162Z",
       "rawProducts": 408,
       "listings": 345
     },
@@ -185,8 +185,8 @@
       "url": "https://kbdfans.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:31:42.135Z",
-      "rawProducts": 463,
+      "checkedAt": "2026-11-03T17:05:58.967Z",
+      "rawProducts": 464,
       "listings": 376
     },
     {
@@ -195,7 +195,7 @@
       "url": "https://www.keychron.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:01.001Z",
+      "checkedAt": "2026-11-03T17:06:01.736Z",
       "rawProducts": 715,
       "listings": 642
     },
@@ -205,7 +205,7 @@
       "url": "https://keebsforall.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:00.578Z",
+      "checkedAt": "2026-11-03T17:06:02.925Z",
       "rawProducts": 452,
       "listings": 412
     },
@@ -215,7 +215,7 @@
       "url": "https://modedesigns.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:01.270Z",
+      "checkedAt": "2026-11-03T17:06:01.550Z",
       "rawProducts": 73,
       "listings": 46
     },
@@ -226,7 +226,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:30.543Z",
+      "checkedAt": "2026-11-03T17:06:25.703Z",
       "rawProducts": 5699,
       "listings": 3081
     },
@@ -237,7 +237,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:08.599Z",
+      "checkedAt": "2026-11-03T17:06:12.420Z",
       "rawProducts": 1370,
       "listings": 1256
     },
@@ -248,7 +248,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:02.556Z",
+      "checkedAt": "2026-11-03T17:06:03.761Z",
       "rawProducts": 204,
       "listings": 104
     },
@@ -259,7 +259,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:03.435Z",
+      "checkedAt": "2026-11-03T17:06:04.628Z",
       "rawProducts": 113,
       "listings": 80
     },
@@ -270,7 +270,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:04.080Z",
+      "checkedAt": "2026-11-03T17:06:05.361Z",
       "rawProducts": 31,
       "listings": 23
     },
@@ -281,8 +281,8 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:05.536Z",
-      "rawProducts": 128,
+      "checkedAt": "2026-11-03T17:06:06.225Z",
+      "rawProducts": 127,
       "listings": 108
     },
     {
@@ -303,7 +303,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:09.804Z",
+      "checkedAt": "2026-11-03T17:06:13.339Z",
       "rawProducts": 177,
       "listings": 155
     },
@@ -325,7 +325,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:17.675Z",
+      "checkedAt": "2026-11-03T17:06:20.384Z",
       "rawProducts": 1017,
       "listings": 585
     },
@@ -347,7 +347,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-02T19:32:18.505Z",
+      "checkedAt": "2026-11-03T17:06:21.767Z",
       "rawProducts": 112,
       "listings": 87
     },
@@ -360,7 +360,7 @@
       "status": "skipped",
       "rawProducts": 0,
       "listings": 0,
-      "error": "Unexpected token '<', \"<!-- 12105\"... is not valid JSON"
+      "error": "Unexpected token '<', \"<!-- 40892\"... is not valid JSON"
     },
     {
       "id": "akko-direct",
@@ -525,5 +525,5 @@
     "parts/0118.json",
     "parts/0119.json"
   ],
-  "fingerprint": "7d90002ce6de7e9ae4ea6b3d2802b337585fe38d2d94494c93bb3d84c7cdf6ae"
+  "fingerprint": "3939fc7033dce677669f5337ceea81d3bc782d6052f14c36afc1980f184495f8"
 }
