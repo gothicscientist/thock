@@ -355,6 +355,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Mekanisk Fjell / GATERON Magnetic Black Lotus HE / Silicone tube MOD Sound Test",
   "creator": "何野何某"
  },
+ "gateronblacklotusmagnetic": {
+  "video": "UZ-8TjNbr5E",
+  "title": "【Sound Test】Gateron Magnetic Black Lotus Switch",
+  "creator": "そふらん"
+ },
  "gateronblueinkv2": {
   "video": "PkOv_f42zbc",
   "title": "Gateron INK V2 Blue Sound Test with GMK, MT3 and SA Keycaps",
