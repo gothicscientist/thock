@@ -953,6 +953,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Huano Sakura Switches Sound Test #keyboard #switch #tech",
   "creator": "LettersEF"
  },
+ "huanosakurav2": {
+  "video": "z5BSPbOPvhU",
+  "title": "Sound Test- Aula F87 Pro V1 - Huano Sakura V2 switches with Akko Rosewood on the Spacebar.",
+  "creator": "aymonc"
+ },
  "jwkjwickred": {
   "video": "IYWvb6eJQXc",
   "title": "JWK / Jwick Red on FL CMMK MK870 Typing Test",
@@ -1132,6 +1137,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "CE1UUTeb0Q8",
   "title": "KeebMonkey KBM68 Keyboard + Iceberg Linear Switch Type Test",
   "creator": "KeebMonkey"
+ },
+ "keychronsilent": {
+  "video": "qx_piNBuwWQ",
+  "title": "KEYCHRON M6 MOUSE SOUND TEST ALL BUTTONS ALL SILENT VERSION (JAN 2026)",
+  "creator": "ITestItOut"
  },
  "keychronsilentkpro": {
   "video": "sajeThEs5_8",
