@@ -786,6 +786,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "QK65 with Geon Clear Tactiles on Aluminum plate & Plate foam+Polyfill (Sound test)",
   "creator": "sd"
  },
+ "geonraptorhev2": {
+  "video": "CZfLLKjJCxo",
+  "title": "Geonworks Raptor HE V2 Switch Sound Test สวิตช์ HE ที่ Wobble แน่นสุดๆ!",
+  "creator": "Aiglatson Studio"
+ },
  "geonraptormxgaming": {
   "video": "GHY-BXKmWeU",
   "title": "Geon Raptor MX Extreme Gaming Switches sound test",
