@@ -913,6 +913,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "The Best 2025 Scratchy Switch? Siliworks X HMX Sonja HC Linear Switch | Neo60 core | Sound Test |",
   "creator": "Nada Wrks"
  },
+ "hmxsillyworkshyacinth": {
+  "video": "DRSf9Oqihcg",
+  "title": "HMX Sillyworks Hyacinth V2U Sound Test #linear #mechanicalgamingkeyboard #customkeyboard #hmx",
+  "creator": "LumeKeebs"
+ },
  "hmxsillyworkshyacinthhyacinthv2": {
   "video": "7aebREGmNSg",
   "title": "HMX Sillyworks Hyacinth V2 Linear Switches Sound Test Clacky Switches",
