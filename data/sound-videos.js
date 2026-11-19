@@ -880,6 +880,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "HMX's BEST tactile to date | HMX Firecracker switch sound test and review",
   "creator": "The Switch Journal"
  },
+ "hmxquantum": {
+  "video": "N5gTUZnm5yw",
+  "title": "+84 Classic TKL / HMX Quantum Sound Test",
+  "creator": "OB"
+ },
  "hmxretroc": {
   "video": "wxQ__QzvBGY",
   "title": "HMX Retro C Typing Test | Smooth & Resonant Linear Switches",
@@ -1434,6 +1439,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "3HMs0iEjgvI",
   "title": "Do you like TTC Magneto Sound Test?😜",
   "creator": "TTC"
+ },
+ "ttcposeidonmagnetic": {
+  "video": "qxd5-UHTTR0",
+  "title": "Fast Magnetic Switch with Dual Light?! (TTC Poseidon Magnetic Switch Unboxing & Review)",
+  "creator": "Aon's ASMR"
  },
  "ttcprokomhemagnetic": {
   "video": "YEIX6ckayrM",
