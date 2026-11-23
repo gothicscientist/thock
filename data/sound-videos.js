@@ -938,6 +938,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "HMX Snowflake sound test",
   "creator": "DadTech1981"
  },
+ "hmxvolume0silent": {
+  "video": "ApWUvS35nng",
+  "title": "0 must have a new meaning | HMX Volume 0 T silent tactile switch sound test and review",
+  "creator": "The Switch Journal"
+ },
  "hmxvolume0silenttactile": {
   "video": "ApWUvS35nng",
   "title": "0 must have a new meaning | HMX Volume 0 T silent tactile switch sound test and review",
