@@ -908,6 +908,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "7CB0VBNsfXo",
   "title": "NEW HMX Saru v2 Sound Test"
  },
+ "hmxsiliworkssonja": {
+  "video": "Wsy-90PqVtE",
+  "title": "The Cherry MX Killer? Siliworks x HMX Sonja Linear Switch Review!",
+  "creator": "Desten Sheng"
+ },
  "hmxsiliworkssonjasonja": {
   "video": "Wsy-90PqVtE",
   "title": "The Cherry MX Killer? Siliworks x HMX Sonja Linear Switch Review!",
@@ -1172,6 +1177,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "video": "mAJG26VmSlI",
   "title": "Sound Test | Ultra-fast Lime Magnetic – Keychron C75 TMR",
   "creator": "Keychron Thailand Keyboard"
+ },
+ "keygeekathena": {
+  "video": "KCQZC1xZHDk",
+  "title": "HyperX Origins 2 65 | Keygeek Athena Linear | Typing/ Sound Test",
+  "creator": "CemiTech"
  },
  "keygeekbluecheesev2": {
   "video": "Q6TwTDLBaVs",

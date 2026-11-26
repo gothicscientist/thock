@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T19:19:59.364Z",
-  "listingCount": 9635,
-  "inStockCount": 4852,
-  "builderSwitchCount": 2082,
+  "generatedAt": "2026-11-26T19:04:13.472Z",
+  "listingCount": 9632,
+  "inStockCount": 4855,
+  "builderSwitchCount": 2080,
   "builderExtraCount": 1409,
   "builderCaseCount": 1787,
-  "builderKeycapCount": 1971,
+  "builderKeycapCount": 1968,
   "builderStabCount": 135,
-  "builderPcbCount": 259,
+  "builderPcbCount": 260,
   "builderPlateCount": 582,
-  "builderSoldOutCount": 4267,
+  "builderSoldOutCount": 4265,
   "builderAdmission": {
     "keyboards": {
       "total": 2677,
@@ -27,9 +27,9 @@
       }
     },
     "keycaps": {
-      "total": 2951,
-      "admitted": 716,
-      "soldOutAdmitted": 1229,
+      "total": 2948,
+      "admitted": 718,
+      "soldOutAdmitted": 1224,
       "excluded": {
         "not a full set": 969,
         "non-ANSI layout": 37
@@ -68,8 +68,8 @@
     },
     "pcb": {
       "total": 502,
-      "admitted": 285,
-      "soldOutAdmitted": 197,
+      "admitted": 282,
+      "soldOutAdmitted": 200,
       "excluded": {
         "layout the builder can't draw": 12,
         "no switch type": 3,
@@ -79,8 +79,8 @@
     },
     "plate": {
       "total": 455,
-      "admitted": 273,
-      "soldOutAdmitted": 163,
+      "admitted": 274,
+      "soldOutAdmitted": 162,
       "excluded": {
         "layout the builder can't draw": 5,
         "no switch type": 11,
@@ -133,7 +133,7 @@
     },
     "keycaps": {
       "label": "Keycaps",
-      "count": 2951
+      "count": 2948
     },
     "stabs": {
       "label": "Stabilizers",
@@ -155,9 +155,9 @@
       "url": "https://cannonkeys.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:21.339Z",
-      "rawProducts": 1186,
-      "listings": 917
+      "checkedAt": "2026-11-26T19:03:41.538Z",
+      "rawProducts": 1187,
+      "listings": 918
     },
     {
       "id": "divinikey",
@@ -165,7 +165,7 @@
       "url": "https://divinikey.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:23.850Z",
+      "checkedAt": "2026-11-26T19:03:44.384Z",
       "rawProducts": 1506,
       "listings": 1375
     },
@@ -175,7 +175,7 @@
       "url": "https://novelkeys.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:18.751Z",
+      "checkedAt": "2026-11-26T19:03:39.573Z",
       "rawProducts": 412,
       "listings": 353
     },
@@ -185,9 +185,9 @@
       "url": "https://kbdfans.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:20.723Z",
-      "rawProducts": 463,
-      "listings": 378
+      "checkedAt": "2026-11-26T19:03:41.282Z",
+      "rawProducts": 458,
+      "listings": 374
     },
     {
       "id": "keychron",
@@ -195,7 +195,7 @@
       "url": "https://www.keychron.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:23.198Z",
+      "checkedAt": "2026-11-26T19:03:43.659Z",
       "rawProducts": 724,
       "listings": 649
     },
@@ -205,7 +205,7 @@
       "url": "https://keebsforall.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:22.359Z",
+      "checkedAt": "2026-11-26T19:03:42.979Z",
       "rawProducts": 452,
       "listings": 412
     },
@@ -215,7 +215,7 @@
       "url": "https://modedesigns.com",
       "currency": "USD",
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:22.708Z",
+      "checkedAt": "2026-11-26T19:03:43.303Z",
       "rawProducts": 76,
       "listings": 53
     },
@@ -226,7 +226,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:41.910Z",
+      "checkedAt": "2026-11-26T19:04:04.277Z",
       "rawProducts": 5746,
       "listings": 3093
     },
@@ -237,7 +237,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:29.030Z",
+      "checkedAt": "2026-11-26T19:03:49.223Z",
       "rawProducts": 1378,
       "listings": 1264
     },
@@ -248,7 +248,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:24.560Z",
+      "checkedAt": "2026-11-26T19:03:45.466Z",
       "rawProducts": 219,
       "listings": 105
     },
@@ -259,7 +259,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:25.069Z",
+      "checkedAt": "2026-11-26T19:03:46.010Z",
       "rawProducts": 113,
       "listings": 80
     },
@@ -270,7 +270,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:25.412Z",
+      "checkedAt": "2026-11-26T19:03:46.341Z",
       "rawProducts": 34,
       "listings": 23
     },
@@ -281,7 +281,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:25.855Z",
+      "checkedAt": "2026-11-26T19:03:46.893Z",
       "rawProducts": 117,
       "listings": 101
     },
@@ -303,7 +303,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:29.500Z",
+      "checkedAt": "2026-11-26T19:03:49.698Z",
       "rawProducts": 177,
       "listings": 155
     },
@@ -325,7 +325,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:34.965Z",
+      "checkedAt": "2026-11-26T19:03:55.691Z",
       "rawProducts": 1017,
       "listings": 585
     },
@@ -347,7 +347,7 @@
       "currency": "USD",
       "optional": true,
       "status": "fresh",
-      "checkedAt": "2026-11-25T19:19:35.814Z",
+      "checkedAt": "2026-11-26T19:03:56.142Z",
       "rawProducts": 112,
       "listings": 87
     },
@@ -360,7 +360,7 @@
       "status": "skipped",
       "rawProducts": 0,
       "listings": 0,
-      "error": "Unexpected token '<', \"<!-- 36449\"... is not valid JSON"
+      "error": "Unexpected token '<', \"<!-- 29345\"... is not valid JSON"
     },
     {
       "id": "akko-direct",
@@ -526,5 +526,5 @@
     "parts/0119.json",
     "parts/0120.json"
   ],
-  "fingerprint": "84a1f6faf3d14fcb33750a2edde07ebac10daa81dc20b5cf7296f3335521a151"
+  "fingerprint": "a63464a360558c79860dfe55ad8bab7016094ac2c170ddcd60755aa2c536d658"
 }
