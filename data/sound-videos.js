@@ -796,6 +796,11 @@ globalThis.SWITCHDECK_SOUND_VIDEOS={
   "title": "Geon Raptor MX Extreme Gaming Switches sound test",
   "creator": "DadTech1981"
  },
+ "geonrawhe": {
+  "video": "0t2ITUiSv_g",
+  "title": "The BEST Hall Effect Switches! Geon Raw HE Review",
+  "creator": "Brandon Taylor"
+ },
  "geonrawhe60g": {
   "video": "otaOc9YcXpE",
   "title": "Geon Raw 60g Sound Test with Wooting80 HE",
